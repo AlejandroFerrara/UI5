@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.globant.holamundo.controller.App" 
+xmlns:mvc="sap.ui.core.mvc" displayBlock="true" 
+xmlns="sap.m">
+<Shell id="shell">
+<App id="app">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Title text="Hello World!"></Title>
+        </content>
+    </Page>
+    </App>
+</Shell>
+</mvc:View>

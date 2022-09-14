@@ -1,0 +1,30 @@
+<mvc:View controllerName="com.globant.customers.controller.Customers"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox id="_IDGenVBox1">
+                <Table
+                    id="idCustomersTable"
+                    inset="false"
+                    items="{ path: '/Customers'}">
+                    <columns>
+                        <Column id="_IDGenColumn1" width="12em">
+                            <Text id="_IDGenText5" text="ID Cliente" />
+                        </Column>
+                    </columns>
+
+                    <items>
+                        <ColumnListItem id="_IDGenColumnListItem1" vAlign="Middle" type="Navigation" press=".onPress">
+                            <cells>
+                                <ObjectIdentifier id="_IDGenObjectIdentifier1" title="{CustomerID}" text="{CompanyName}" />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+
+            </VBox>
+            
+        </content>
+    </Page>
+</mvc:View>

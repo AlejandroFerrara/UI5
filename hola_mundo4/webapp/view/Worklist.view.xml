@@ -1,0 +1,29 @@
+<mvc:View controllerName="com.globant.holamundo4.controller.Worklist" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox id="_IDGenVBox1">
+                <Title id="_IDGenTitle1" text="{Header>/Titulo}" />
+
+                    <Table
+                    id="idProductsTable"
+                    inset="false"
+                    items="{ path: 'Datos>/'}">
+                    <columns>
+                        <Column id="_IDGenColumn1" width="12em">
+                            <Text id="_IDGenText5" text="ID" />
+                        </Column>
+                    </columns>
+
+                    <items>
+                        <ColumnListItem id="_IDGenColumnListItem1" vAlign="Middle" type="Navigation" press=".onPress">
+                            <cells>
+                                <ObjectIdentifier id="_IDGenObjectIdentifier1" title="{Datos>ID}" text="{Datos>Texto}" />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+                
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
