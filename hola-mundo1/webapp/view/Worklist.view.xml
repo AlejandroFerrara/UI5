@@ -3,6 +3,7 @@
         <content>
             <Title text="Hello World" />
             <DateTimePicker id="DTP1" placeholder="Enter Date" change="handleChange" class="sapUiSmallMarginBottom" />
+            <Title text="Hola SAAAAMIGOS!"></Title>
         </content>
     </Page>
 </mvc:View>
