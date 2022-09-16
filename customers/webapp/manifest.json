@@ -25,6 +25,21 @@
                     "odataVersion": "2.0"
                 }
             }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "globant-audit-md-conf-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "auditconfig",
+                    "action": "manage",
+                    "title": "{{flpTitle}}",
+                    "subTitle": "{{flpSubtitle}}",
+                    "icon": ""
+                }
+            }
         }
     },
     "sap.ui": {
